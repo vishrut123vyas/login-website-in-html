@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Your VV Account</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: blue;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            margin: 50px auto;
+            max-width: 400px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+        label, input {
+            display: block;
+            margin-bottom: 20px;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+        input[type="submit"] {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .skip {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+        .settings {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .back {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your VV Account</h1>
+    </header>
+    <div class="container">
+        <form action="#" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    <a href="#" class="skip">Skip</a>
+    <a href="#" class="settings">Settings</a>
+    <a href="#" class="back">Back</a>
+</body>
+</html>
