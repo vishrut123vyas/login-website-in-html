@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Weather</title>
+    <style>
+        body {
+            background-color: #4caf50;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #weather-container {
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+        }
+        h1 {
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .city-container {
+            border: 2px solid #4caf50;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Today's Weather</h1>
+    <div class="city-container">
+        <h2>Jaipur</h2>
+        <p>Temperature: 40°C</p>
+    </div>
+    <div class="city-container">
+        <h2>Indore</h2>
+        <p>Temperature: 30°C</p>
+    </div>
+    <div class="city-container">
+        <h2>Mumbai</h2>
+        <p>Temperature: 35°C</p>
+    </div>
+
+    <script>
+        // You can keep the JavaScript code as previously provided
+    </script>
+</body>
+</html>
